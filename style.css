@@ -1,0 +1,26 @@
+/*Implementa las líneas necesarias en el CSS para que cuando el ratón pase por encima del botón ocurra lo siguiente (hover):
+
+El botón se traslade -5px en el eje de las Y
+
+Se añada una sombra
+
+El color de fondo del botón cambie
+
+El color del texto cambie
+
+Todo esto con una transición de 0.4s*/
+
+.btn-modern{
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: fit-content;
+    transition: 0.4s;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    background-color: rgb(7, 7, 56);
+    color: white;
+    box-shadow: 0px 5px rgba(46, 46, 95, 0.337);
+}
